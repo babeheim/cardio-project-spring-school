@@ -12,7 +12,7 @@ dat$Sex <- as.factor(dat$Sex)
 
 dat$ln_cac_plus1 <- log(dat$CoronaryCA + 1)
 
-dat <- filter(dat, !is.na(CoronaryCA) & Demo != 1 & Sex != 3)
+dat <- filter(dat, !is.na(dat$CoronaryCA) & dat$Demo != 1 & dat$Sex != 3)
 
 dat$male <- as.numeric(dat$Sex == 1)
 
@@ -24,7 +24,7 @@ load("data_clean.RData")
 
 nrow(dat) # 16 observations
 
-# mean is 60.00 years old
+# mean age is 60.00 years old
 
 m1 <- lm(ln_cac_plus1 ~ Age_Part + Sex, data = dat)
 
