@@ -45,11 +45,17 @@ git add workshop-notes.md
 
 git add .
 
+git log
+git log --oneline
+
+commit 6d025adaba48a523ffdadcfcf8d1dc40100e7c8b
+q: what is this?
+a: long alphanumeric codes are the official names of specific commits in the version history (in practice we can just abbreviate, e.g. 6d025ad)
 
 
 # to-do's
 
-[-] put this repository under git version control
+[x] put this repository under git version control
 [-] remove all redundant and 'old' versions of every file
 [-] clean up the 'data processing script.R' and 'analysis clean.R' to avoid redundant execution
 [-] rename all files
