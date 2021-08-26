@@ -2,9 +2,7 @@
 # set the working directory to cardio-project-site-example/ with setwd
 # or use here() in the library(here)
 
-library(readxl)
-
-dat <- read_xlsx("Data_Final_092315 BAB.xlsx")
+dat <- read.csv("data.csv")
 
 dat$CoronaryCA <- as.numeric(dat$CoronaryCA)
 dat$Age_Part <- as.numeric(dat$Age_Part)
