@@ -71,4 +71,7 @@ a: long alphanumeric codes are the official names of specific commits in the ver
 [x] create a .gitignore file and ignore the RData format
 [x] consolidate data formats (xlsx, RData) -> csv
 [x] whats the relationship between 'output' figures and the associated R scripts?
-[-] fix the analysis script, it doesnt run!
+[x] fix the analysis script, it doesnt run!
+[x] create github repo
+[x] add a license
+
