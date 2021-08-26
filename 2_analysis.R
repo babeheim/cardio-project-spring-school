@@ -7,6 +7,7 @@ nrow(dat) # 16 observations
 
 # mean age is 60.00 years old
 
+m0 <- lm(ln_cac_plus1 ~ Age_Part, data = dat)
 m1 <- lm(ln_cac_plus1 ~ Age_Part + Sex, data = dat)
 
 png("analysisplot_new.png", res = 300, height = 5, width = 5, units = "in")
