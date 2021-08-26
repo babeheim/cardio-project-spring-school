@@ -1,5 +1,6 @@
 
-setwd("/Users/bretbeheim/Dropbox/projects/2021/swc-spring-school/cardio-multisite-raw/site 1")
+# set the working directory to cardio-project-site-example/ with setwd
+# or use here() in the library(here)
 
 library(readxl)
 
