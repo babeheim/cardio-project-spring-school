@@ -43,6 +43,8 @@ git init
 
 git add workshop-notes.md
 
+git add .
+
 
 
 # to-do's
